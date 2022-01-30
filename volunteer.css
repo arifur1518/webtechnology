@@ -1,0 +1,187 @@
+/* Google Fonts Open Sans  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+/* Global CSS  */
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #2B164B;
+}
+a{
+	text-decoration: none;
+}
+
+/* Header Section CSS */
+header{
+	padding: 5px 0;
+    background: #c1f7c1;
+}
+.logo{
+    width: 150px;
+    margin-left: -20px;
+}
+.nav-item{
+	margin: 0 10px;
+}
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show>.nav-link {
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #51894B;
+    border-bottom: solid 1px #51894B;
+}
+
+/* Join Us Section CSS */
+.volunteer-section{
+    background: url("Images/WBackground.jpg") no-repeat center center/cover;
+	padding: 45px 0;
+}
+.volunteer-section h1{
+    margin-top: 250px;
+	font-size: 90px;
+    font-weight: 700;
+    color: #c1f7c1;
+}
+.volunteer-section h3{
+	font-size: 45px;
+    font-weight: 500;
+    color: #c1f7c1;
+    margin-bottom: 45px;
+}
+
+/* Volunteer Registration CSS*/
+.volunteer-form{
+    padding: 15px;
+    border-radius: 10px;
+    background: hsla(120, 100%, 93%, 0.7);
+    color: black;
+    text-align: left;
+}
+.logo img{
+    margin-left: 135px;
+    margin-bottom: 10px;
+}
+
+.volunteer-form h2{
+	text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.registration-form label{
+    font-weight: 500;
+	display: block;
+}
+.form-group{
+	margin-bottom: 10px;
+}
+.form-control{
+    height: 30px;
+    width: 100%;
+    border: 1px solid #c3bfbf;
+    outline: none;
+    padding: 0 5px;
+    background: azure;
+	border-radius: 5px;
+}
+.btn-registration{
+    margin: 0 auto;
+	padding: 6px 20px;
+    font-size: 20px;
+    background: hsla(120, 100%, 93%, 0.7);
+    color: black;
+    border: solid 2px black;
+    transition: 0.3s all ease-in-out;
+    margin-top: 5px;
+	border-radius: 10px;
+    margin-left: 130px;
+}
+.btn-registration:hover{
+	background: #51894B;
+	color: white;
+	cursor: pointer;
+}
+
+
+/* Footer */
+footer{
+	background: #51894B;
+	padding: 15px 0;
+	text-align: center;
+	align-items: center;
+}
+footer p{
+	color: #fff;
+	margin-top: 10px;
+}
+.organization-name h1 {
+	font-size: 30px;
+	text-transform: capitalize;
+	color: white;
+}
+.social-item {
+	display: inline;
+	align-items: center;
+}
+
+
+
+
+/* Tablet */
+@media (min-width: 577px) and (max-width: 768px)
+{
+	.volunteer-section h1{
+		font-size: 50px;
+		font-weight: 500;
+		text-align: center;
+        margin-top: -25px;
+	}
+
+	.volunteer-section h3{
+		font-size: 35px;
+		font-weight: 300;
+		margin-bottom: 30px;
+        text-align: center;
+	}
+
+	.btn-registration{
+		margin-left: 165px;
+	}
+
+	.logo img{
+		margin-left: 180px;
+		margin-bottom: 10px;
+	}
+}
+
+
+/* Mobile */
+@media (min-width: 300px) and (max-width: 576px)
+{
+	.volunteer-section h1{
+		font-size: 35px;
+		font-weight: 400;
+        margin-top: -25px;
+        text-align: center;
+	}
+
+	.volunteer-section h3{
+		font-size: 25px;
+		font-weight: 300;
+        text-align: center;
+	}
+
+	.btn-registration{
+		margin-left: 65px;
+	}
+
+	.logo img{
+		margin-left: 80px;
+		margin-bottom: 10px;
+	}
+}

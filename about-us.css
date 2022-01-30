@@ -1,0 +1,198 @@
+/* Google Fonts Open Sans  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+/* Global CSS  */
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #2B164B;
+}
+a{
+	text-decoration: none;
+}
+
+/* Header Section CSS */
+header{
+	padding: 5px 0;
+    background: #c1f7c1;
+}
+.logo{
+    width: 150px;
+    margin-left: -20px;
+}
+.nav-item{
+	margin: 0 10px;
+}
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show>.nav-link {
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #51894B;
+    border-bottom: solid 1px #51894B;
+}
+
+/* About Us Section CSS */
+.about-us-section{
+    background: url("Images/WBackground.jpg") no-repeat center center/cover;
+	padding: 75px 0;
+}
+.about-us-section h1{
+	font-size: 90px;
+    font-weight: 700;
+    color: #c1f7c1;
+}
+.about-us-section h3{
+	font-size: 45px;
+    font-weight: 500;
+    color: #c1f7c1;
+    margin-bottom: 45px;
+}
+.our-mission{
+    padding: 15px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    background: hsla(120, 100%, 93%, 0.7);
+    color: black;
+    text-align: center;
+}
+.our-mission p{
+    text-align: justify;
+}
+.join-us-link{
+    padding: 10px 20px;
+    font-size: 25px;
+    background: #c1f7c1;
+    border: solid 1px black;
+    border-radius: 5px;
+    color: black;
+}
+.join-us-link:hover{
+    background: black;
+    border: solid 1px white;
+    border-radius: 5px;
+    color: #c1f7c1;
+}
+
+
+/* Statistics Section CSS */
+.statistics-section{
+	padding: 45px 0 30px;
+    text-align: center;
+}
+
+.statistics-section h2{
+	margin-bottom: 25px;
+}
+.statistics-box-1{
+    background: #c1f7c1;
+	padding: 20px;
+    border-radius: 10px;
+	margin-top: 15px;
+	border: solid 2px black;
+}
+
+.statistics-box-1 p{
+	text-align: justify;
+	font-size: 15px;
+    margin: 15px 0 10px;
+}
+
+.statistics-box-2{
+	margin-top: 15px;
+	padding: 20px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+.statistics-box-2 p{
+	text-align: justify;
+	font-size: 15px;
+    margin: 15px 0 10px;
+}
+
+
+/* Recent Donation Section CSS */
+.leadership-section{
+    background: url("Images/WBackground.jpg") no-repeat center center/cover;
+	padding: 50px 0 30px;
+    text-align: center;
+    color:#c1f7c1;
+}
+.leadership-box{
+    background: hsla(120, 100%, 93%, 0.7);
+	padding: 15px;
+	color: black;
+    margin-top: 30px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    border: solid 2px #c1f7c1;
+}
+.leadership-box img{
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.leadership-box p{
+	font-size: 25px;
+}
+
+
+/* Footer */
+footer{
+	background: #51894B;
+	padding: 15px 0;
+	text-align: center;
+	align-items: center;
+}
+footer p{
+	color: #fff;
+	margin-top: 10px;
+}
+.organization-name h1 {
+	font-size: 30px;
+	text-transform: capitalize;
+	color: white;
+}
+.social-item {
+	display: inline;
+	align-items: center;
+}
+
+
+
+
+/* Tablet */
+@media (min-width: 577px) and (max-width: 768px)
+{
+	.about-us-section{
+        padding: 30px 0;
+        text-align: center;
+    }
+    .about-us-section h3{
+        font-size: 45px;
+        font-weight: 400;
+    }
+}
+
+
+/* Mobile */
+@media (min-width: 300px) and (max-width: 576px)
+{
+	.about-us-section{
+        padding: 30px 0;
+        text-align: center;
+    }
+    .about-us-section h1{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .about-us-section h3{
+        font-size: 25px;
+        font-weight: 300;
+    }
+}
